@@ -13,7 +13,7 @@
     <%= link_to 'Add to my friends list', friendships_path(friend: @user),
                                     class: "btn btn-sm btn-success", method: :post %></td>
          <% else %>
-          <span class="bg bg-secondary">
+          <span class="badge bg-secondary">
           You are friends
           </span>
          <% end %>
